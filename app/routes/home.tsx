@@ -1,10 +1,10 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import {Welcome} from "~/components/welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "MFD Module 4. React. 4.Forms " },
+    { name: "description", content: "Домашнее задание к разделу форм" },
   ];
 }
 
