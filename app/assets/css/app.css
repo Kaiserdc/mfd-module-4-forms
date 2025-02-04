@@ -1,0 +1,37 @@
+:root, [data-bs-theme=light]{
+    --bs-font-sans-serif:Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.form-group .input-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.form-group .with-left-icon .input-icon{
+    left: 8px;
+}
+.form-group .with-right-icon .input-icon{
+    right: 8px;
+}
+.form-group .input-icon {
+    height: 24px;
+    width: 24px;
+}
+.form-group .with-left-icon input{
+    padding-left: 28px;
+}
+.form-group .with-right-icon input{
+    padding-right: 28px;
+}
